@@ -6,5 +6,5 @@ app.use(express.static('../client/dist'));
 app.use(express.json());
 
 app.listen(PORT, () => {
-    console.log('Serving up now at '+ JSON.stringify(PORT))
+  console.log('Serving up now at '+ JSON.stringify(PORT))
 });
